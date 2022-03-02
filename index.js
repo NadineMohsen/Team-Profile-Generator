@@ -188,3 +188,30 @@ const addEmployee =() => {
         }
     })
 }
+
+//generate Html file
+const writeFile = data => {
+    fs.writeFile('./dist/index.html',data,err => {
+        //in case of an error
+        if (err) {
+            console.log(err)
+            return;
+        }
+        // in case no error
+        else {
+            console.log("Your team profile has been successfully created! Please check out the index.html in your browser")
+        }
+    }
+    )}
+
+    addManager()
+    .then(addEmployee)
+    .then(teamArray =>{
+        return generateHTML(teamArray)
+    })
+    .then (pageHTML=> {
+        return writeFile(pageHTML) 
+    })
+    .catch(err => {
+        console.log(err)
+    })

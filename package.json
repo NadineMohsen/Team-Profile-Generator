@@ -1,28 +1,29 @@
 {
-    "name": "Team-Profile-Generator",
+    "name": "team-profile-generator",
     "version": "1.0.0",
-    "description": "",
+    "description": "app to create team profile generator ",
     "main": "index.js",
     "directories": {
-        "lib": "lib"
-    },
-    "dependencies": {
-        "enquirer": "^2.3.6",
-        "inquirer": "^8.0.0",
-        "jest": "^26.6.3"
+      "lib": "lib"
     },
     "scripts": {
-        "test": "jest"
+      "test": "jest"
     },
     "repository": {
-        "type": "git",
-        "url": "git+https://github.com/NadineMohsen/Team-Profile-Generator.git"
+      "type": "git",
+      "url": "git+https://github.com/NadineMohsen/Team-Profile-Generator"
     },
-    "keywords": [],
-    "author": "Amanda Rodriguez",
+    "author": "Nicole Wallace",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/NadineMohsen/Team-Profile-Generator/issues"
+      "url": "https://github.com/NadineMohsen/Team-Profile-Generator"
     },
-    "homepage": "https://github.com/NadineMohsen/Team-Profile-Generator#readme"
-}
+    "homepage": "https://github.com/NadineMohsen/Team-Profile-Generator#readme",
+    "devDependencies": {
+      "jest": "^26.0.1"
+    },
+    "dependencies": {
+      "inquirer": "^7.1.0"
+    }
+  }
+  

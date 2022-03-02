@@ -163,7 +163,7 @@ const addEmployee =() => {
             default: false
         }
     ])
-    .then(employeData => {
+    .then(employeeData => {
         //data for employees
         let { name, id, email, role, github, school, confirmAddEmployee } = employeeData; 
         let employee; 

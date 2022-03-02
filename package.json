@@ -1,0 +1,28 @@
+{
+    "name": "Team-Profile-Generator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "dependencies": {
+        "enquirer": "^2.3.6",
+        "inquirer": "^8.0.0",
+        "jest": "^26.6.3"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NadineMohsen/Team-Profile-Generator.git"
+    },
+    "keywords": [],
+    "author": "Amanda Rodriguez",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/NadineMohsen/Team-Profile-Generator/issues"
+    },
+    "homepage": "https://github.com/NadineMohsen/Team-Profile-Generator#readme"
+}

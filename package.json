@@ -4,26 +4,25 @@
     "description": "app to create team profile generator ",
     "main": "index.js",
     "directories": {
-      "lib": "lib"
+        "lib": "lib"
     },
     "scripts": {
-      "test": "jest"
+        "test": "jest"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/NadineMohsen/Team-Profile-Generator"
+        "type": "git",
+        "url": "git+https://github.com/NadineMohsen/Team-Profile-Generator"
     },
-    "author": "Nicole Wallace",
+    "author": "Nadine Mohsen",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/NadineMohsen/Team-Profile-Generator"
+        "url": "https://github.com/NadineMohsen/Team-Profile-Generator"
     },
     "homepage": "https://github.com/NadineMohsen/Team-Profile-Generator#readme",
     "devDependencies": {
-      "jest": "^26.0.1"
+        "jest": "^26.0.1"
     },
     "dependencies": {
-      "inquirer": "^7.1.0"
+        "inquirer": "^7.3.3"
     }
-  }
-  
+}

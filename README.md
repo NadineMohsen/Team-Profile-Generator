@@ -57,7 +57,7 @@ For any questions you can reach me on github or by email
 - Email nadine.mohsen@hotmail.com
 
 ## Demo
-![Demo1](./assets/Screenshot.pnG)
+![Demo1](./assets/Screenshot.png)
 
 ## Links to Demo
 https://drive.google.com/file/d/1J869qtWbVHui2N4drFUDg7QQts1RwFP3/view
